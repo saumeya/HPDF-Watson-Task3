@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: five27-hasura
+  data: null
+  kubeContext: five27
+  name: five27
